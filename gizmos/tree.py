@@ -941,7 +941,7 @@ def get_ontology(cur, prefixes):
     if not res:
         return iri, None
     #return iri, res["value"]
-    return iri, res["value"]
+    return iri, res
 
 
 def term2rdfa(
