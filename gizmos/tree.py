@@ -940,6 +940,7 @@ def get_ontology(cur, prefixes):
     res = cur.fetchone()
     if not res:
         return iri, None
+    #return iri, res["value"]
     return iri, res["value"]
 
 
