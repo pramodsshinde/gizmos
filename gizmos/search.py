@@ -3,7 +3,7 @@ import sys
 
 from argparse import ArgumentParser
 from collections import defaultdict
-from .helpers import get_connection
+from gizmos.helpers import get_connection
 
 
 def main():
